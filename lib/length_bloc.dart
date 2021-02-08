@@ -18,7 +18,7 @@ class LengthBloc {
   StreamSink<LengthEvents> get eventSinkGreen => _eventLengthController.sink;
   StreamSink<LengthEvents> get eventSinkPurple => _eventLengthController.sink;
 
-  // definisikan state
+  // definisikan state controller
   StreamController _stateGreenController = StreamController();
   StreamController _statePurpleController = StreamController();
 
